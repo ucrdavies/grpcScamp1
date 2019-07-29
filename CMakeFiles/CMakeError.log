@@ -1,0 +1,978 @@
+Looking for a CUDA compiler failed with the following output:
+-- The CUDA compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CUDA_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CUDACXX" or the CMake cache entry CMAKE_CUDA_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CheckCUDA/CMakeFiles/CMakeOutput.log".
+See also "/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CheckCUDA/CMakeFiles/CMakeError.log".
+
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48f8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48f8f.dir/build.make CMakeFiles/cmTC_48f8f.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48f8f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=res_servicename -fPIE   -o CMakeFiles/cmTC_48f8f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48f8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f8f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=res_servicename    -rdynamic CMakeFiles/cmTC_48f8f.dir/CheckFunctionExists.c.o  -o cmTC_48f8f -lresolv 
+CMakeFiles/cmTC_48f8f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `res_servicename'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_48f8f.dir/build.make:97: recipe for target 'cmTC_48f8f' failed
+make[1]: *** [cmTC_48f8f] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_48f8f/fast' failed
+make: *** [cmTC_48f8f/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the socket failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a976/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a976.dir/build.make CMakeFiles/cmTC_9a976.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a976.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_9a976.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a976.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_9a976.dir/CheckFunctionExists.c.o  -o cmTC_9a976 -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9a976.dir/build.make:97: recipe for target 'cmTC_9a976' failed
+make[1]: *** [cmTC_9a976] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a976/fast' failed
+make: *** [cmTC_9a976/fast] Error 2
+
+
+Determining if the function socket exists in the socket failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed52d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed52d.dir/build.make CMakeFiles/cmTC_ed52d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed52d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket -fPIE   -o CMakeFiles/cmTC_ed52d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed52d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed52d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_ed52d.dir/CheckFunctionExists.c.o  -o cmTC_ed52d -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ed52d.dir/build.make:97: recipe for target 'cmTC_ed52d' failed
+make[1]: *** [cmTC_ed52d] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ed52d/fast' failed
+make: *** [cmTC_ed52d/fast] Error 2
+
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ef8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ef8b.dir/build.make CMakeFiles/cmTC_5ef8b.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ef8b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_5ef8b.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: socket.h: No such file or directory
+ #include <socket.h>
+          ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_5ef8b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5ef8b.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5ef8b.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5ef8b/fast' failed
+make: *** [cmTC_5ef8b/fast] Error 2
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc566/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc566.dir/build.make CMakeFiles/cmTC_cc566.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc566.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_cc566.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_cc566.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cc566.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cc566.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc566/fast' failed
+make: *** [cmTC_cc566/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1a48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1a48.dir/build.make CMakeFiles/cmTC_e1a48.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1a48.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e1a48.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_e1a48.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e1a48.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e1a48.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e1a48/fast' failed
+make: *** [cmTC_e1a48/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3a6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3a6d.dir/build.make CMakeFiles/cmTC_d3a6d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3a6d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_d3a6d.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: winsock.h: No such file or directory
+ #include <winsock.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d3a6d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3a6d.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3a6d.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3a6d/fast' failed
+make: *** [cmTC_d3a6d/fast] Error 2
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8dc82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8dc82.dir/build.make CMakeFiles/cmTC_8dc82.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dc82.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_8dc82.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_8dc82.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8dc82.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8dc82.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8dc82/fast' failed
+make: *** [cmTC_8dc82/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f973/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f973.dir/build.make CMakeFiles/cmTC_1f973.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f973.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_TYPE_SOCKET -fPIE   -o CMakeFiles/cmTC_1f973.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c:26:4: error: unknown type name ‘SOCKET’; did you mean ‘LOCK_EX’?
+    SOCKET var_exists;
+    ^~~~~~
+    LOCK_EX
+CMakeFiles/cmTC_1f973.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1f973.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1f973.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1f973/fast' failed
+make: *** [cmTC_1f973/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_114bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_114bb.dir/build.make CMakeFiles/cmTC_114bb.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_114bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_114bb.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘O_NONBLOCK’?
+   return ((int*)(&SO_NONBLOCK))[argc];
+                   ^~~~~~~~~~~
+                   O_NONBLOCK
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_114bb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_114bb.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_114bb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_114bb/fast' failed
+make: *** [cmTC_114bb/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bitncmp exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87bea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87bea.dir/build.make CMakeFiles/cmTC_87bea.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87bea.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_87bea.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘bitncmp’ undeclared (first use in this function); did you mean ‘bcmp’?
+   return ((int*)(&bitncmp))[argc];
+                   ^~~~~~~
+                   bcmp
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_87bea.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_87bea.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_87bea.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87bea/fast' failed
+make: *** [cmTC_87bea/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closesocket exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6efff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6efff.dir/build.make CMakeFiles/cmTC_6efff.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6efff.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_6efff.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘closesocket’ undeclared (first use in this function); did you mean ‘socket’?
+   return ((int*)(&closesocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_6efff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6efff.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6efff.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6efff/fast' failed
+make: *** [cmTC_6efff/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81ac4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81ac4.dir/build.make CMakeFiles/cmTC_81ac4.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81ac4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_81ac4.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘CloseSocket’ undeclared (first use in this function); did you mean ‘socket’?
+   return ((int*)(&CloseSocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_81ac4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_81ac4.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_81ac4.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_81ac4/fast' failed
+make: *** [cmTC_81ac4/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07564/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07564.dir/build.make CMakeFiles/cmTC_07564.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07564.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_07564.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07564.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_07564.dir/CheckSymbolExists.c.o  -o cmTC_07564 -lnsl -lrt 
+CMakeFiles/cmTC_07564.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `inet_net_pton'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_07564.dir/build.make:97: recipe for target 'cmTC_07564' failed
+make[1]: *** [cmTC_07564] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_07564/fast' failed
+make: *** [cmTC_07564/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48416/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48416.dir/build.make CMakeFiles/cmTC_48416.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48416.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_48416.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘ioctlsocket’ undeclared (first use in this function); did you mean ‘socket’?
+   return ((int*)(&ioctlsocket))[argc];
+                   ^~~~~~~~~~~
+                   socket
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_48416.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_48416.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_48416.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_48416/fast' failed
+make: *** [cmTC_48416/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59bed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59bed.dir/build.make CMakeFiles/cmTC_59bed.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59bed.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_59bed.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘IoctlSocket’ undeclared (first use in this function); did you mean ‘clock_t’?
+   return ((int*)(&IoctlSocket))[argc];
+                   ^~~~~~~~~~~
+                   clock_t
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_59bed.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_59bed.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_59bed.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_59bed/fast' failed
+make: *** [cmTC_59bed/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52cdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52cdc.dir/build.make CMakeFiles/cmTC_52cdc.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52cdc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_52cdc.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘strcmpi’ undeclared (first use in this function); did you mean ‘strcmp’?
+   return ((int*)(&strcmpi))[argc];
+                   ^~~~~~~
+                   strcmp
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_52cdc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_52cdc.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_52cdc.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_52cdc/fast' failed
+make: *** [cmTC_52cdc/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ef76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ef76.dir/build.make CMakeFiles/cmTC_1ef76.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ef76.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_1ef76.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&stricmp))[argc];
+                   ^~~~~~~
+                   strncmp
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_1ef76.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1ef76.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1ef76.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1ef76/fast' failed
+make: *** [cmTC_1ef76/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fa0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fa0d.dir/build.make CMakeFiles/cmTC_3fa0d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fa0d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_3fa0d.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘strncmpi’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&strncmpi))[argc];
+                   ^~~~~~~~
+                   strncmp
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_3fa0d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3fa0d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3fa0d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3fa0d/fast' failed
+make: *** [cmTC_3fa0d/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnicmp exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_782a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_782a6.dir/build.make CMakeFiles/cmTC_782a6.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_782a6.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_782a6.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: ‘strnicmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&strnicmp))[argc];
+                   ^~~~~~~~
+                   strncmp
+/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_782a6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_782a6.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_782a6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_782a6/fast' failed
+make: *** [cmTC_782a6/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function __system_property_get exists failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e269/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e269.dir/build.make CMakeFiles/cmTC_7e269.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e269.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DCHECK_FUNCTION_EXISTS=__system_property_get -fPIE   -o CMakeFiles/cmTC_7e269.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e269.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__system_property_get    -rdynamic CMakeFiles/cmTC_7e269.dir/CheckFunctionExists.c.o  -o cmTC_7e269 -lnsl -lrt 
+CMakeFiles/cmTC_7e269.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `__system_property_get'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7e269.dir/build.make:97: recipe for target 'cmTC_7e269' failed
+make[1]: *** [cmTC_7e269] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7e269/fast' failed
+make: *** [cmTC_7e269/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_685a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_685a8.dir/build.make CMakeFiles/cmTC_685a8.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_685a8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_685a8.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_685a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_685a8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_685a8.dir/CheckSymbolExists.c.o  -o cmTC_685a8 
+CMakeFiles/cmTC_685a8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_685a8.dir/build.make:97: recipe for target 'cmTC_685a8' failed
+make[1]: *** [cmTC_685a8] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_685a8/fast' failed
+make: *** [cmTC_685a8/fast] Error 2
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a758/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a758.dir/build.make CMakeFiles/cmTC_7a758.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a758.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_7a758.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a758.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7a758.dir/CheckFunctionExists.c.o  -o cmTC_7a758 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7a758.dir/build.make:97: recipe for target 'cmTC_7a758' failed
+make[1]: *** [cmTC_7a758] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7a758/fast' failed
+make: *** [cmTC_7a758/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97204/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97204.dir/build.make CMakeFiles/cmTC_97204.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97204.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32 -fPIE   -Wshorten-64-to-32 -o CMakeFiles/cmTC_97204.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_97204.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_97204.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_97204.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_97204/fast' failed
+make: *** [cmTC_97204/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b176/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b176.dir/build.make CMakeFiles/cmTC_9b176.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b176.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654 -fPIE   -wd654 -o CMakeFiles/cmTC_9b176.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+CMakeFiles/cmTC_9b176.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9b176.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9b176.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9b176/fast' failed
+make: *** [cmTC_9b176/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a61b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a61b4.dir/build.make CMakeFiles/cmTC_a61b4.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a61b4.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety -fPIE   -Wthread-safety -o CMakeFiles/cmTC_a61b4.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+CMakeFiles/cmTC_a61b4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a61b4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a61b4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a61b4/fast' failed
+make: *** [cmTC_a61b4/fast] Error 2
+
+Source file was:
+int main() { return 0; }

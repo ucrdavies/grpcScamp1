@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtile.a  CMakeFiles/tile.dir/src/tile.cpp.o
+/usr/bin/ranlib libtile.a

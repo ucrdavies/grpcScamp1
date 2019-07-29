@@ -59,9 +59,10 @@ int main(int argc, char **argv) {
   // Do not limit input size
   ch_args.SetMaxReceiveMessageSize(-1);
 
-  SCAMPWorker worker(grpc::CreateCustomChannel(
-      good, grpc::InsecureChannelCredentials(), ch_args));
-
+  //SCAMPWorker worker(grpc::CreateCustomChannel(
+  SCAMPWorker worker(grpc::CreateChannel(
+      good, grpc::InsecureChannelCredentials()));
+      //good, grpc::InsecureChannelCredentials(), ch_args));
   bool failed = worker.run();
 
   return failed;
