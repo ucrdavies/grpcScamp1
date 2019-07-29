@@ -1,0 +1,2 @@
+/usr/bin/ar qc libworker.a  CMakeFiles/worker.dir/scamp_worker.cpp.o
+/usr/bin/ranlib libworker.a

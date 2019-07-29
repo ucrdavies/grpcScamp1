@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG -march=native -O3   CMakeFiles/SCAMP.dir/src/main.cpp.o  -o SCAMP grpc/third_party/gflags/libgflags_nothreads.a libcommon.a libscamp.a libscamp_utils.a -lpthread libtile.a libcpu_kernels.a libcpu_stats.a libqt_helper.a libcommon.a 

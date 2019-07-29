@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chad/7tesing_SCAMP/SCAMP/grpc/third_party/boringssl/crypto/cipher_extra/aes128gcmsiv-x86_64.S
+
+/home/chad/7tesing_SCAMP/SCAMP/grpc/third_party/boringssl/crypto/cipher_extra/chacha20_poly1305_x86_64.S
+

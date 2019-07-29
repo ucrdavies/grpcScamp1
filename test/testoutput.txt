@@ -1,0 +1,578 @@
+Reading data from SampleInput/randomwalk8K.txt
+Read 8192 values from file SampleInput/randomwalk8K.txt
+Starting SCAMP
+Issued Job: 0
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk8K.txt
+Read 8192 values from file SampleInput/randomwalk8K.txt
+Starting SCAMP
+Issued Job: 1
+job_id: 1
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk16K.txt
+Read 16384 values from file SampleInput/randomwalk16K.txt
+Starting SCAMP
+Issued Job: 2
+job_id: 2
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk16K.txt
+Read 16384 values from file SampleInput/randomwalk16K.txt
+Starting SCAMP
+Issued Job: 3
+job_id: 3
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk16K.txt
+Read 16384 values from file SampleInput/randomwalk16K.txt
+Starting SCAMP
+Issued Job: 4
+job_id: 4
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 5
+job_id: 5
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 6
+job_id: 6
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 7
+job_id: 7
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 8
+job_id: 8
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 9
+job_id: 9
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 10
+job_id: 10
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 11
+job_id: 11
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 12
+job_id: 12
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 13
+job_id: 13
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 14
+job_id: 14
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 15
+job_id: 15
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 16
+job_id: 16
+status: JOB_STATUS_RUNNING
+time_elapsed: 2
+eta: -1
+
+job_id: 16
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 17
+job_id: 17
+status: JOB_STATUS_RUNNING
+time_elapsed: 2
+eta: -1
+
+job_id: 17
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 18
+Reading data from SampleInput/randomwalk8K.txt
+Read 8192 values from file SampleInput/randomwalk8K.txt
+Starting SCAMP
+Issued Job: 19
+job_id: 19
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk8K.txt
+Read 8192 values from file SampleInput/randomwalk8K.txt
+Starting SCAMP
+Issued Job: 20
+job_id: 20
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk16K.txt
+Read 16384 values from file SampleInput/randomwalk16K.txt
+Starting SCAMP
+Issued Job: 21
+job_id: 21
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk16K.txt
+Read 16384 values from file SampleInput/randomwalk16K.txt
+Starting SCAMP
+Issued Job: 22
+job_id: 22
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk16K.txt
+Read 16384 values from file SampleInput/randomwalk16K.txt
+Starting SCAMP
+Issued Job: 23
+job_id: 23
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 24
+job_id: 24
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 25
+job_id: 25
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 26
+job_id: 26
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk32K.txt
+Read 32768 values from file SampleInput/randomwalk32K.txt
+Starting SCAMP
+Issued Job: 27
+job_id: 27
+status: JOB_STATUS_RUNNING
+progress: 0.959183693
+time_elapsed: 2
+
+job_id: 27
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 28
+job_id: 28
+status: JOB_STATUS_RUNNING
+progress: 0.107142858
+time_elapsed: 2
+eta: 16
+
+job_id: 28
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 29
+job_id: 29
+status: JOB_STATUS_RUNNING
+progress: 0.474489808
+time_elapsed: 2
+eta: 2
+
+job_id: 29
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 30
+job_id: 30
+status: JOB_STATUS_RUNNING
+progress: 0.836734712
+time_elapsed: 2
+
+job_id: 30
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 31
+job_id: 31
+status: JOB_STATUS_RUNNING
+progress: 0.025510205
+time_elapsed: 2
+eta: 76
+
+job_id: 31
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K.txt
+Read 65536 values from file SampleInput/randomwalk64K.txt
+Starting SCAMP
+Issued Job: 32
+job_id: 32
+status: JOB_STATUS_RUNNING
+progress: 0.408163279
+time_elapsed: 2
+eta: 2
+
+job_id: 32
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 33
+job_id: 33
+status: JOB_STATUS_RUNNING
+progress: 0.770408154
+time_elapsed: 2
+
+job_id: 33
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 34
+job_id: 34
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 2
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 35
+job_id: 35
+status: JOB_STATUS_RUNNING
+progress: 0.260204077
+time_elapsed: 2
+eta: 5
+
+job_id: 35
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 36
+job_id: 36
+status: JOB_STATUS_RUNNING
+progress: 0.576530635
+time_elapsed: 2
+eta: 1
+
+job_id: 36
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 37
+job_id: 37
+status: JOB_STATUS_RUNNING
+progress: 0.903061211
+time_elapsed: 2
+
+job_id: 37
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 38
+job_id: 38
+status: JOB_STATUS_RUNNING
+progress: 0.0918367356
+time_elapsed: 2
+eta: 19
+
+job_id: 38
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 39
+job_id: 39
+status: JOB_STATUS_RUNNING
+progress: 0.443877548
+time_elapsed: 2
+eta: 2
+
+job_id: 39
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 40
+job_id: 40
+status: JOB_STATUS_RUNNING
+progress: 0.795918345
+time_elapsed: 2
+
+job_id: 40
+status: JOB_STATUS_FINISHED
+progress: 1
+time_elapsed: 4
+
+Fetched Job Result
+Now writing result to files
+Done
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Reading data from SampleInput/randomwalk64K_nan.txt
+Read 65536 values from file SampleInput/randomwalk64K_nan.txt
+Starting SCAMP
+Issued Job: 41

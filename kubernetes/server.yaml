@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: servervec
+  labels:
+    app: servervec
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: servervec
+  template:
+    metadata:
+      labels:
+        run: servervec
+    spec:
+      containers:
+      - name: server24
+        image: gcr.io/docker02/server24
+        ports:
+        - containerPort: 30078

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: distributed
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      run: distributed
+  template:
+    metadata:
+      labels:
+        run: distributed
+    spec:
+      containers:
+      - name: distributed23
+        image: gcr.io/docker02/distributed23
+        ports:
+        - containerPort: 30078

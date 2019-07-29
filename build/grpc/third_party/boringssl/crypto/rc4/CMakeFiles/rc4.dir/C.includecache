@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../grpc/third_party/boringssl/crypto/../include/openssl/base.h
+stddef.h
+-
+stdint.h
+-
+sys/types.h
+-
+stdio.h
+-
+openssl/is_boringssl.h
+-
+openssl/opensslconf.h
+-
+boringssl_prefix_symbols.h
+-
+memory
+-
+
+../grpc/third_party/boringssl/crypto/../include/openssl/is_boringssl.h
+
+../grpc/third_party/boringssl/crypto/../include/openssl/opensslconf.h
+
+../grpc/third_party/boringssl/crypto/../include/openssl/rc4.h
+openssl/base.h
+-
+
+/home/chad/6tesing_SCAMP/SCAMP/grpc/third_party/boringssl/crypto/rc4/rc4.c
+openssl/rc4.h
+-
+
