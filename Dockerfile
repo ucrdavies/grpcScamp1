@@ -55,11 +55,14 @@ RUN apt-get install -y cmake
 
 
 
-ADD https://api.github.com/repos/zpzim/SCAMP/git/refs/heads/kubernetes-wip-2 version.json
-RUN git clone --branch kubernetes-wip-2 https://github.com/zpzim/SCAMP.git
-RUN cd /SCAMP && git submodule update --init --recursive
-RUN mkdir /SCAMP/build && cd /SCAMP/build && cmake -DBUILD_CLIENT_SERVER=1 .. && make -j16
+#ADD https://api.github.com/repos/zpzim/SCAMP/git/refs/heads/kubernetes-wip-2 version.json
+ADD https://api.github.com/repos/ucrdavies/grpcScamp1 version.json
+#RUN git clone --branch kubernetes-wip-2 https://github.com/zpzim/SCAMP.git
+RUN git clone https://github.com/ucrdavies/grpcScamp1.git
+#RUN cd /SCAMP && git submodule update --init --recursive
+RUN cd /grpcScamp1 && git submodule update --init --recursive
+#RUN mkdir /SCAMP/build && cd /SCAMP/build && cmake -DBUILD_CLIENT_SERVER=1 .. && make -j16
+RUN mkdir /grpcScamp1/build && cd /grpcScamp1/build && cmake -DBUILD_CLIENT_SERVER=1 .. && make -j16
 
-
-CMD ./SCAMP/build/kubernetes/SCAMPclient
-#CMD ./SCAMP/build/kubernetes/SCAMPserver
+CMD ./grpcScamp1/build/kubernetes/SCAMPclient
+#CMD ./grpcScamp1/build/kubernetes/SCAMPserver
