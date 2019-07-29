@@ -1,2 +1,0 @@
-/usr/bin/ar qc libscamp_utils.a  CMakeFiles/scamp_utils.dir/src/scamp_utils.cpp.o
-/usr/bin/ranlib libscamp_utils.a

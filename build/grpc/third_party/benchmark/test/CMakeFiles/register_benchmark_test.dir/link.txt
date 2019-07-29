@@ -1,1 +1,0 @@
-/usr/bin/g++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -O3 -march=native -O3  -Werror  -rdynamic CMakeFiles/register_benchmark_test.dir/register_benchmark_test.cc.o  -o register_benchmark_test ../src/libbenchmark.a -lpthread -lrt 
