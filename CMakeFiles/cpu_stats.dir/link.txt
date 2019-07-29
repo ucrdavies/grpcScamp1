@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcpu_stats.a  CMakeFiles/cpu_stats.dir/src/cpu_stats.cpp.o
-/usr/bin/ranlib libcpu_stats.a
