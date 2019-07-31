@@ -61,10 +61,10 @@ int main(int argc, char **argv) {
   // FIXME
   //ch_args.SetMaxReceiveMessageSize(-1);
 
+  auto channel = grpc::CreateChannel(good, grpc::InsecureChannelCredentials());
 
   std::cout << "client before worker construct" << std::endl;
-  SCAMPWorker worker(grpc::CreateCustomChannel(
-      good, grpc::InsecureChannelCredentials(), ch_args));
+  SCAMPWorker worker(channel);
   
   std::cout << "client before worker run" << std::endl;
   
