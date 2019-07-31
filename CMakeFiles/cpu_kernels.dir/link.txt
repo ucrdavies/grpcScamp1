@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcpu_kernels.a  CMakeFiles/cpu_kernels.dir/src/cpu_kernels.cpp.o
-/usr/bin/ranlib libcpu_kernels.a

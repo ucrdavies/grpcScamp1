@@ -1,2 +1,0 @@
-/usr/bin/ar qc libkube_utils.a  CMakeFiles/kube_utils.dir/utils.cpp.o
-/usr/bin/ranlib libkube_utils.a
