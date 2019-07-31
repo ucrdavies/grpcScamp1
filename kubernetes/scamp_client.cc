@@ -40,7 +40,9 @@ int main(int argc, char **argv) {
   port = getenv("SERVERVEC_SERVICE_PORT");
   ip = getenv("SERVERVEC_SERVICE_HOST");
 
-  std::string newip, newport;
+  //chad
+  //FIXME
+  /*std::string newip, newport;
 
   if (ip != nullptr && port != nullptr) {
     newip = ip;
@@ -51,19 +53,36 @@ int main(int argc, char **argv) {
   }
 
   std::string good = newip + ":" + newport;
+*/
+
+  // remove
+  std::string good = std::string(ip) + ":" + std::string(port);
 
   std::cout << "Using addr: " << good << std::endl;
 
   grpc::ChannelArguments ch_args;
 
   // Do not limit input size
-  ch_args.SetMaxReceiveMessageSize(-1);
+  // chad
+  // FIXME
+  //ch_args.SetMaxReceiveMessageSize(-1);
 
+
+  std::cout << "client before worker construct" << std::endl;
+  // chad
+  // FIXME
   //SCAMPWorker worker(grpc::CreateCustomChannel(
   SCAMPWorker worker(grpc::CreateChannel(
       good, grpc::InsecureChannelCredentials()));
+      //chad
+      //FIXME
       //good, grpc::InsecureChannelCredentials(), ch_args));
+  
+  std::cout << "client before worker run" << std::endl;
+  
   bool failed = worker.run();
+
+  std::cout << "client after worker run" << std::endl;
 
   return failed;
 }

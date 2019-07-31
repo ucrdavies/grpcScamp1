@@ -151,7 +151,7 @@ float SCAMPWorker::get_expected_throughput() {
 bool SCAMPWorker::run() {
   SCAMPProto::SCAMPRequest r;
   float expected_throughput = get_expected_throughput();
-  std::cout << expected_throughput << std::endl;
+  std::cout << "expected throughput: " <<  expected_throughput << std::endl;
   if (expected_throughput <= 0) {
     return false;
   }

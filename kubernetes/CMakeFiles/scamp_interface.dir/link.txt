@@ -1,2 +1,0 @@
-/usr/bin/ar qc libscamp_interface.a  CMakeFiles/scamp_interface.dir/scamp_interface.cpp.o
-/usr/bin/ranlib libscamp_interface.a

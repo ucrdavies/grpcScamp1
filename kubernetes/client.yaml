@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: clientvec
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       run: clientvec
@@ -13,7 +13,7 @@ spec:
         run: clientvec
     spec:
       containers:
-      - name: client30
-        image: gcr.io/docker02/client30
+      - name: client40
+        image: gcr.io/docker02/client40
         ports:
         - containerPort: 30078
