@@ -15,7 +15,7 @@ spec:
         run: servervec
     spec:
       containers:
-      - name: server40
-        image: gcr.io/docker02/server40
+      - name: server50
+        image: gcr.io/docker02/server50
         ports:
         - containerPort: 30078

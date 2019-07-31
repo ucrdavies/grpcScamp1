@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqt_helper.a  CMakeFiles/qt_helper.dir/src/qt_helper.cpp.o
+/usr/bin/ranlib libqt_helper.a

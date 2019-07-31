@@ -607,8 +607,7 @@ class SCAMPServiceImpl final : public SCAMPService::Service {
 };
 
 void RunServer() {
-  //std::string server_address("localhost:30078");
-  std::string server_address("0.0.0.0:30078");
+  std::string server_address("localhost:30078");
 
   SCAMPServiceImpl service;
 
@@ -631,14 +630,10 @@ void RunServer() {
   // Finally assemble the server.
   std::unique_ptr<Server> server(builder.BuildAndStart());
   
-  //chad
-  //FIXME
-  /*
   if (server == nullptr) {
     std::cout << "Error building server." << std::endl;
     exit(1);
   }
-  */
   std::cout << "Server listening on " << server_address << std::endl;
 
   // Wait for the server to shutdown. Note that some other thread must be
@@ -647,8 +642,6 @@ void RunServer() {
 }
 
 int main(int argc, char **argv) {
-  //chad
-  //FIXME
   //std::thread check_time_out();
 
   RunServer();

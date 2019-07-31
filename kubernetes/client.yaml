@@ -13,7 +13,7 @@ spec:
         run: clientvec
     spec:
       containers:
-      - name: client40
-        image: gcr.io/docker02/client40
+      - name: client50
+        image: gcr.io/docker02/client50
         ports:
         - containerPort: 30078

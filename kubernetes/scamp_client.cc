@@ -40,9 +40,7 @@ int main(int argc, char **argv) {
   port = getenv("SERVERVEC_SERVICE_PORT");
   ip = getenv("SERVERVEC_SERVICE_HOST");
 
-  //chad
-  //FIXME
-  /*std::string newip, newport;
+  std::string newip, newport;
 
   if (ip != nullptr && port != nullptr) {
     newip = ip;
@@ -53,10 +51,6 @@ int main(int argc, char **argv) {
   }
 
   std::string good = newip + ":" + newport;
-*/
-
-  // remove
-  std::string good = std::string(ip) + ":" + std::string(port);
 
   std::cout << "Using addr: " << good << std::endl;
 
@@ -69,14 +63,8 @@ int main(int argc, char **argv) {
 
 
   std::cout << "client before worker construct" << std::endl;
-  // chad
-  // FIXME
-  //SCAMPWorker worker(grpc::CreateCustomChannel(
-  SCAMPWorker worker(grpc::CreateChannel(
-      good, grpc::InsecureChannelCredentials()));
-      //chad
-      //FIXME
-      //good, grpc::InsecureChannelCredentials(), ch_args));
+  SCAMPWorker worker(grpc::CreateCustomChannel(
+      good, grpc::InsecureChannelCredentials(), ch_args));
   
   std::cout << "client before worker run" << std::endl;
   

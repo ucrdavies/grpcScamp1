@@ -1,0 +1,3414 @@
+The system is: Linux - 4.15.0-55-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e5aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e5aa.dir/build.make CMakeFiles/cmTC_0e5aa.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e5aa.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0e5aa.dir/testCXXCompiler.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0e5aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e5aa.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0e5aa.dir/testCXXCompiler.cxx.o  -o cmTC_0e5aa 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1863/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1863.dir/build.make CMakeFiles/cmTC_f1863.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f1863
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1863.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f1863 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1863' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoxgPFB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f1863 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1863' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f1863/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f1863.dir/build.make CMakeFiles/cmTC_f1863.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f1863]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1863.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f1863 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1863' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoxgPFB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f1863 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoxgPFB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f1863] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_f1863.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_279e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_279e2.dir/build.make CMakeFiles/cmTC_279e2.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_279e2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_279e2.dir/feature_tests.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_279e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_279e2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_279e2.dir/feature_tests.cxx.o  -o cmTC_279e2 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_722ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_722ea.dir/build.make CMakeFiles/cmTC_722ea.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_722ea.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_722ea.dir/feature_tests.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_722ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_722ea.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_722ea.dir/feature_tests.cxx.o  -o cmTC_722ea 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47aa4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47aa4.dir/build.make CMakeFiles/cmTC_47aa4.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47aa4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_47aa4.dir/feature_tests.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_47aa4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47aa4.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_47aa4.dir/feature_tests.cxx.o  -o cmTC_47aa4 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b24d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b24d3.dir/build.make CMakeFiles/cmTC_b24d3.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b24d3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b24d3.dir/feature_tests.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b24d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24d3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b24d3.dir/feature_tests.cxx.o  -o cmTC_b24d3 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fda2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fda2.dir/build.make CMakeFiles/cmTC_1fda2.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fda2.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1fda2.dir/testCCompiler.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1fda2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fda2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1fda2.dir/testCCompiler.c.o  -o cmTC_1fda2 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69768/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69768.dir/build.make CMakeFiles/cmTC_69768.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_69768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69768.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o  -o cmTC_69768 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_69768' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxWfscr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_69768 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_69768' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_69768/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_69768.dir/build.make CMakeFiles/cmTC_69768.dir/build]
+  ignore line: [make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_69768]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69768.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o  -o cmTC_69768 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_69768' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxWfscr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_69768 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxWfscr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_69768] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_69768.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd54d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd54d.dir/build.make CMakeFiles/cmTC_bd54d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd54d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bd54d.dir/feature_tests.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bd54d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd54d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bd54d.dir/feature_tests.c.o  -o cmTC_bd54d 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d76ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d76ee.dir/build.make CMakeFiles/cmTC_d76ee.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d76ee.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d76ee.dir/feature_tests.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d76ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d76ee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d76ee.dir/feature_tests.c.o  -o cmTC_d76ee 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91ab3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91ab3.dir/build.make CMakeFiles/cmTC_91ab3.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91ab3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_91ab3.dir/feature_tests.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/feature_tests.c
+Linking C executable cmTC_91ab3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ab3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_91ab3.dir/feature_tests.c.o  -o cmTC_91ab3 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b884d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b884d.dir/build.make CMakeFiles/cmTC_b884d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b884d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b884d.dir/CheckIncludeFile.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b884d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b884d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b884d.dir/CheckIncludeFile.c.o  -o cmTC_b884d 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99e1d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99e1d.dir/build.make CMakeFiles/cmTC_99e1d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99e1d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_99e1d.dir/CheckIncludeFile.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_99e1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99e1d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_99e1d.dir/CheckIncludeFile.c.o  -o cmTC_99e1d 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf17e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf17e.dir/build.make CMakeFiles/cmTC_cf17e.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf17e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_cf17e.dir/CheckIncludeFile.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cf17e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf17e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cf17e.dir/CheckIncludeFile.c.o  -o cmTC_cf17e 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58e0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58e0c.dir/build.make CMakeFiles/cmTC_58e0c.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58e0c.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fPIE   -o CMakeFiles/cmTC_58e0c.dir/OFF64_T.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_58e0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e0c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58e0c.dir/OFF64_T.c.o  -o cmTC_58e0c 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6c77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6c77.dir/build.make CMakeFiles/cmTC_b6c77.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6c77.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -fPIE   -o CMakeFiles/cmTC_b6c77.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6c77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c77.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_b6c77.dir/CheckFunctionExists.c.o  -o cmTC_b6c77 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a182/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a182.dir/build.make CMakeFiles/cmTC_5a182.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a182.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_5a182.dir/CheckIncludeFile.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5a182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a182.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5a182.dir/CheckIncludeFile.c.o  -o cmTC_5a182 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists in the nsl passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_533bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_533bb.dir/build.make CMakeFiles/cmTC_533bb.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_533bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_533bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_533bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_533bb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_533bb.dir/CheckFunctionExists.c.o  -o cmTC_533bb -lnsl 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d86a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d86a5.dir/build.make CMakeFiles/cmTC_d86a5.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d86a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_d86a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d86a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d86a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_d86a5.dir/CheckFunctionExists.c.o  -o cmTC_d86a5 -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3856c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3856c.dir/build.make CMakeFiles/cmTC_3856c.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3856c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_3856c.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3856c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3856c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3856c.dir/CheckIncludeFiles.c.o  -o cmTC_3856c 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_314eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_314eb.dir/build.make CMakeFiles/cmTC_314eb.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_314eb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_314eb.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_314eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_314eb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_314eb.dir/CheckIncludeFiles.c.o  -o cmTC_314eb 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/nameser_compat.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ed4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ed4b.dir/build.make CMakeFiles/cmTC_9ed4b.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ed4b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_9ed4b.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9ed4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed4b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9ed4b.dir/CheckIncludeFiles.c.o  -o cmTC_9ed4b 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8122/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8122.dir/build.make CMakeFiles/cmTC_b8122.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8122.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b8122.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b8122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8122.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b8122.dir/CheckIncludeFiles.c.o  -o cmTC_b8122 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e91a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e91a9.dir/build.make CMakeFiles/cmTC_e91a9.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e91a9.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e91a9.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e91a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e91a9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e91a9.dir/CheckIncludeFiles.c.o  -o cmTC_e91a9 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1a17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1a17.dir/build.make CMakeFiles/cmTC_f1a17.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1a17.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_f1a17.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f1a17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1a17.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f1a17.dir/CheckIncludeFiles.c.o  -o cmTC_f1a17 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_162ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_162ec.dir/build.make CMakeFiles/cmTC_162ec.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_162ec.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_162ec.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_162ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_162ec.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_162ec.dir/CheckIncludeFiles.c.o  -o cmTC_162ec 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68b01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68b01.dir/build.make CMakeFiles/cmTC_68b01.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68b01.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_68b01.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_68b01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b01.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_68b01.dir/CheckIncludeFiles.c.o  -o cmTC_68b01 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e983/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e983.dir/build.make CMakeFiles/cmTC_1e983.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e983.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_1e983.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1e983
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e983.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1e983.dir/CheckIncludeFiles.c.o  -o cmTC_1e983 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1047c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1047c.dir/build.make CMakeFiles/cmTC_1047c.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1047c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_1047c.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1047c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1047c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1047c.dir/CheckIncludeFiles.c.o  -o cmTC_1047c 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e613/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e613.dir/build.make CMakeFiles/cmTC_3e613.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e613.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_3e613.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3e613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e613.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3e613.dir/CheckIncludeFiles.c.o  -o cmTC_3e613 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f077a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f077a.dir/build.make CMakeFiles/cmTC_f077a.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f077a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_f077a.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f077a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f077a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f077a.dir/CheckIncludeFiles.c.o  -o cmTC_f077a 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e098d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e098d.dir/build.make CMakeFiles/cmTC_e098d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e098d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e098d.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e098d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e098d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e098d.dir/CheckIncludeFiles.c.o  -o cmTC_e098d 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/tcp.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efaee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efaee.dir/build.make CMakeFiles/cmTC_efaee.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efaee.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_efaee.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_efaee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efaee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_efaee.dir/CheckIncludeFiles.c.o  -o cmTC_efaee 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files net/if.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31aa5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31aa5.dir/build.make CMakeFiles/cmTC_31aa5.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31aa5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_31aa5.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_31aa5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31aa5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_31aa5.dir/CheckIncludeFiles.c.o  -o cmTC_31aa5 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c924b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c924b.dir/build.make CMakeFiles/cmTC_c924b.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c924b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_c924b.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c924b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c924b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c924b.dir/CheckIncludeFiles.c.o  -o cmTC_c924b 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57ce8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57ce8.dir/build.make CMakeFiles/cmTC_57ce8.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57ce8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_57ce8.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_57ce8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ce8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_57ce8.dir/CheckIncludeFiles.c.o  -o cmTC_57ce8 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16853/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16853.dir/build.make CMakeFiles/cmTC_16853.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16853.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_16853.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_16853
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16853.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_16853.dir/CheckIncludeFiles.c.o  -o cmTC_16853 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c972/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c972.dir/build.make CMakeFiles/cmTC_4c972.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c972.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_4c972.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4c972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c972.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4c972.dir/CheckIncludeFiles.c.o  -o cmTC_4c972 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1193/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1193.dir/build.make CMakeFiles/cmTC_e1193.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1193.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e1193.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e1193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1193.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e1193.dir/CheckIncludeFiles.c.o  -o cmTC_e1193 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files stropts.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_119e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_119e7.dir/build.make CMakeFiles/cmTC_119e7.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_119e7.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_119e7.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_119e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_119e7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_119e7.dir/CheckIncludeFiles.c.o  -o cmTC_119e7 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f1dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f1dd.dir/build.make CMakeFiles/cmTC_4f1dd.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f1dd.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_4f1dd.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4f1dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f1dd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f1dd.dir/CheckIncludeFiles.c.o  -o cmTC_4f1dd 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac6bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac6bb.dir/build.make CMakeFiles/cmTC_ac6bb.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac6bb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_ac6bb.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ac6bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac6bb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ac6bb.dir/CheckIncludeFiles.c.o  -o cmTC_ac6bb 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4d77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4d77.dir/build.make CMakeFiles/cmTC_d4d77.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4d77.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_d4d77.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d4d77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d77.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d4d77.dir/CheckIncludeFiles.c.o  -o cmTC_d4d77 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc5aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc5aa.dir/build.make CMakeFiles/cmTC_cc5aa.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc5aa.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_cc5aa.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_cc5aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc5aa.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc5aa.dir/CheckIncludeFiles.c.o  -o cmTC_cc5aa 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f1d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f1d5.dir/build.make CMakeFiles/cmTC_4f1d5.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f1d5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_4f1d5.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4f1d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f1d5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f1d5.dir/CheckIncludeFiles.c.o  -o cmTC_4f1d5 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e72f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e72f.dir/build.make CMakeFiles/cmTC_5e72f.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e72f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_5e72f.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5e72f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e72f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5e72f.dir/CheckIncludeFiles.c.o  -o cmTC_5e72f 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9625a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9625a.dir/build.make CMakeFiles/cmTC_9625a.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9625a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_9625a.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9625a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9625a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9625a.dir/CheckIncludeFiles.c.o  -o cmTC_9625a 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55189/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55189.dir/build.make CMakeFiles/cmTC_55189.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55189.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_55189.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_55189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55189.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_55189.dir/CheckIncludeFiles.c.o  -o cmTC_55189 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2b00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2b00.dir/build.make CMakeFiles/cmTC_e2b00.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2b00.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e2b00.dir/CheckIncludeFiles.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e2b00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2b00.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e2b00.dir/CheckIncludeFiles.c.o  -o cmTC_e2b00 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62252/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62252.dir/build.make CMakeFiles/cmTC_62252.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62252.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SOCKLEN_T -fPIE   -o CMakeFiles/cmTC_62252.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_62252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62252.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SOCKLEN_T    -rdynamic CMakeFiles/cmTC_62252.dir/src.c.o  -o cmTC_62252 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			socklen_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ec31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ec31.dir/build.make CMakeFiles/cmTC_9ec31.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ec31.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_BOOL_T -fPIE   -o CMakeFiles/cmTC_9ec31.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9ec31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec31.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_BOOL_T    -rdynamic CMakeFiles/cmTC_9ec31.dir/src.c.o  -o cmTC_9ec31 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			bool var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SSIZE_T succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_556ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_556ee.dir/build.make CMakeFiles/cmTC_556ee.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_556ee.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SSIZE_T -fPIE   -o CMakeFiles/cmTC_556ee.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_556ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_556ee.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SSIZE_T    -rdynamic CMakeFiles/cmTC_556ee.dir/src.c.o  -o cmTC_556ee -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			ssize_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ded3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ded3f.dir/build.make CMakeFiles/cmTC_ded3f.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ded3f.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_LONGLONG -fPIE   -o CMakeFiles/cmTC_ded3f.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ded3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ded3f.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_LONGLONG    -rdynamic CMakeFiles/cmTC_ded3f.dir/src.c.o  -o cmTC_ded3f -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			long long var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7585f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7585f.dir/build.make CMakeFiles/cmTC_7585f.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7585f.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SIG_ATOMIC_T -fPIE   -o CMakeFiles/cmTC_7585f.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7585f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7585f.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SIG_ATOMIC_T    -rdynamic CMakeFiles/cmTC_7585f.dir/src.c.o  -o cmTC_7585f -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			sig_atomic_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a6f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a6f9.dir/build.make CMakeFiles/cmTC_5a6f9.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a6f9.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_ADDRINFO -fPIE   -o CMakeFiles/cmTC_5a6f9.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5a6f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a6f9.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_ADDRINFO    -rdynamic CMakeFiles/cmTC_5a6f9.dir/src.c.o  -o cmTC_5a6f9 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct addrinfo var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c409/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c409.dir/build.make CMakeFiles/cmTC_2c409.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c409.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_IN6_ADDR -fPIE   -o CMakeFiles/cmTC_2c409.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2c409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c409.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_IN6_ADDR    -rdynamic CMakeFiles/cmTC_2c409.dir/src.c.o  -o cmTC_2c409 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct in6_addr var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e397/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e397.dir/build.make CMakeFiles/cmTC_1e397.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e397.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_SOCKADDR_IN6 -fPIE   -o CMakeFiles/cmTC_1e397.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1e397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e397.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_SOCKADDR_IN6    -rdynamic CMakeFiles/cmTC_1e397.dir/src.c.o  -o cmTC_1e397 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_in6 var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfa16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfa16.dir/build.make CMakeFiles/cmTC_dfa16.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfa16.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_SOCKADDR_STORAGE -fPIE   -o CMakeFiles/cmTC_dfa16.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dfa16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfa16.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_SOCKADDR_STORAGE    -rdynamic CMakeFiles/cmTC_dfa16.dir/src.c.o  -o cmTC_dfa16 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_storage var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90012/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90012.dir/build.make CMakeFiles/cmTC_90012.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90012.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_TIMEVAL -fPIE   -o CMakeFiles/cmTC_90012.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_90012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90012.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_TIMEVAL    -rdynamic CMakeFiles/cmTC_90012.dir/src.c.o  -o cmTC_90012 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct timeval var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6c6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6c6d.dir/build.make CMakeFiles/cmTC_b6c6d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6c6d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_b6c6d.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b6c6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c6d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b6c6d.dir/CheckSymbolExists.c.o  -o cmTC_b6c6d -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_NONBLOCK exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cadaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cadaf.dir/build.make CMakeFiles/cmTC_cadaf.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cadaf.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_cadaf.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cadaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cadaf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cadaf.dir/CheckSymbolExists.c.o  -o cmTC_cadaf -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONBIO exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d08e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d08e.dir/build.make CMakeFiles/cmTC_1d08e.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d08e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_1d08e.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1d08e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d08e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1d08e.dir/CheckSymbolExists.c.o  -o cmTC_1d08e -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONBIO
+  return ((int*)(&FIONBIO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIOCGIFADDR exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8a5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8a5a.dir/build.make CMakeFiles/cmTC_b8a5a.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8a5a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_b8a5a.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b8a5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a5a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b8a5a.dir/CheckSymbolExists.c.o  -o cmTC_b8a5a -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MSG_NOSIGNAL exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80fdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80fdc.dir/build.make CMakeFiles/cmTC_80fdc.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80fdc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_80fdc.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_80fdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80fdc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_80fdc.dir/CheckSymbolExists.c.o  -o cmTC_80fdc -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d153e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d153e.dir/build.make CMakeFiles/cmTC_d153e.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d153e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_d153e.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d153e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d153e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d153e.dir/CheckSymbolExists.c.o  -o cmTC_d153e -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_MONOTONIC exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e859b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e859b.dir/build.make CMakeFiles/cmTC_e859b.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e859b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_e859b.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e859b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e859b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e859b.dir/CheckSymbolExists.c.o  -o cmTC_e859b -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0c58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0c58.dir/build.make CMakeFiles/cmTC_e0c58.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0c58.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID -fPIE   -o CMakeFiles/cmTC_e0c58.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e0c58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0c58.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID    -rdynamic CMakeFiles/cmTC_e0c58.dir/src.c.o  -o cmTC_e0c58 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45b22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45b22.dir/build.make CMakeFiles/cmTC_45b22.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45b22.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_LL -fPIE   -o CMakeFiles/cmTC_45b22.dir/src.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_45b22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45b22.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_LL    -rdynamic CMakeFiles/cmTC_45b22.dir/src.c.o  -o cmTC_45b22 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int n=1234LL; return 0; }
+Determining if the connect exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4af1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4af1f.dir/build.make CMakeFiles/cmTC_4af1f.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4af1f.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_4af1f.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4af1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af1f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4af1f.dir/CheckSymbolExists.c.o  -o cmTC_4af1f -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef connect
+  return ((int*)(&connect))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a384/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a384.dir/build.make CMakeFiles/cmTC_3a384.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a384.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_3a384.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a384.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a384.dir/CheckSymbolExists.c.o  -o cmTC_3a384 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68c06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68c06.dir/build.make CMakeFiles/cmTC_68c06.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68c06.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_68c06.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68c06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68c06.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_68c06.dir/CheckSymbolExists.c.o  -o cmTC_68c06 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3fb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3fb1.dir/build.make CMakeFiles/cmTC_e3fb1.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3fb1.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_e3fb1.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e3fb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3fb1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e3fb1.dir/CheckSymbolExists.c.o  -o cmTC_e3fb1 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_add14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_add14.dir/build.make CMakeFiles/cmTC_add14.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_add14.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_add14.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_add14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_add14.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_add14.dir/CheckSymbolExists.c.o  -o cmTC_add14 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyaddr exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5bf0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5bf0e.dir/build.make CMakeFiles/cmTC_5bf0e.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bf0e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_5bf0e.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5bf0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bf0e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5bf0e.dir/CheckSymbolExists.c.o  -o cmTC_5bf0e -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyaddr
+  return ((int*)(&gethostbyaddr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18426/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18426.dir/build.make CMakeFiles/cmTC_18426.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18426.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_18426.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_18426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18426.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_18426.dir/CheckSymbolExists.c.o  -o cmTC_18426 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostname exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de2e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de2e1.dir/build.make CMakeFiles/cmTC_de2e1.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de2e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_de2e1.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_de2e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2e1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_de2e1.dir/CheckSymbolExists.c.o  -o cmTC_de2e1 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f960e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f960e.dir/build.make CMakeFiles/cmTC_f960e.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f960e.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_f960e.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f960e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f960e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f960e.dir/CheckSymbolExists.c.o  -o cmTC_f960e -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyport_r exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_022e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_022e0.dir/build.make CMakeFiles/cmTC_022e0.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_022e0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_022e0.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_022e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_022e0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_022e0.dir/CheckSymbolExists.c.o  -o cmTC_022e0 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23cde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23cde.dir/build.make CMakeFiles/cmTC_23cde.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23cde.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_23cde.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_23cde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23cde.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23cde.dir/CheckSymbolExists.c.o  -o cmTC_23cde -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the if_indextoname exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee59c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee59c.dir/build.make CMakeFiles/cmTC_ee59c.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee59c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_ee59c.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ee59c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee59c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ee59c.dir/CheckSymbolExists.c.o  -o cmTC_ee59c -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64d53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64d53.dir/build.make CMakeFiles/cmTC_64d53.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64d53.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_64d53.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_64d53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64d53.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_64d53.dir/CheckSymbolExists.c.o  -o cmTC_64d53 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3dcc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3dcc1.dir/build.make CMakeFiles/cmTC_3dcc1.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dcc1.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_3dcc1.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3dcc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dcc1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3dcc1.dir/CheckSymbolExists.c.o  -o cmTC_3dcc1 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c820.dir/build.make CMakeFiles/cmTC_4c820.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c820.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_4c820.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4c820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c820.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4c820.dir/CheckSymbolExists.c.o  -o cmTC_4c820 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recv exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3bbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3bbf.dir/build.make CMakeFiles/cmTC_b3bbf.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3bbf.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_b3bbf.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3bbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3bbf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b3bbf.dir/CheckSymbolExists.c.o  -o cmTC_b3bbf -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recv
+  return ((int*)(&recv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recvfrom exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7575/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7575.dir/build.make CMakeFiles/cmTC_e7575.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7575.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_e7575.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e7575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7575.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e7575.dir/CheckSymbolExists.c.o  -o cmTC_e7575 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvfrom
+  return ((int*)(&recvfrom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the send exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aeefc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aeefc.dir/build.make CMakeFiles/cmTC_aeefc.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aeefc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_aeefc.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aeefc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeefc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aeefc.dir/CheckSymbolExists.c.o  -o cmTC_aeefc -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef send
+  return ((int*)(&send))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e426/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e426.dir/build.make CMakeFiles/cmTC_1e426.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e426.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_1e426.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1e426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e426.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1e426.dir/CheckSymbolExists.c.o  -o cmTC_1e426 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the socket exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87a48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87a48.dir/build.make CMakeFiles/cmTC_87a48.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87a48.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_87a48.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_87a48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87a48.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_87a48.dir/CheckSymbolExists.c.o  -o cmTC_87a48 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75214/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75214.dir/build.make CMakeFiles/cmTC_75214.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75214.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_75214.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_75214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75214.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_75214.dir/CheckSymbolExists.c.o  -o cmTC_75214 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4b26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4b26.dir/build.make CMakeFiles/cmTC_c4b26.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4b26.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_c4b26.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c4b26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4b26.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c4b26.dir/CheckSymbolExists.c.o  -o cmTC_c4b26 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e260/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e260.dir/build.make CMakeFiles/cmTC_1e260.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e260.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_1e260.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1e260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e260.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1e260.dir/CheckSymbolExists.c.o  -o cmTC_1e260 -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a6ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a6ce.dir/build.make CMakeFiles/cmTC_8a6ce.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a6ce.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_8a6ce.dir/CheckSymbolExists.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8a6ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a6ce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8a6ce.dir/CheckSymbolExists.c.o  -o cmTC_8a6ce -lnsl -lrt 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5827e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5827e.dir/build.make CMakeFiles/cmTC_5827e.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5827e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_5827e.dir/CheckIncludeFile.c.o   -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5827e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5827e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5827e.dir/CheckIncludeFile.c.o  -o cmTC_5827e 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_049af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_049af.dir/build.make CMakeFiles/cmTC_049af.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_049af.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_049af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_049af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_049af.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_049af.dir/CheckFunctionExists.c.o  -o cmTC_049af -lpthread 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fnmatch.h exists passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a9d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a9d4.dir/build.make CMakeFiles/cmTC_8a9d4.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a9d4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_8a9d4.dir/CheckIncludeFile.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_8a9d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a9d4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8a9d4.dir/CheckIncludeFile.cxx.o  -o cmTC_8a9d4 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1053/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1053.dir/build.make CMakeFiles/cmTC_f1053.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1053.dir/uint32_t.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_f1053.dir/uint32_t.cpp.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CheckTypeSize/uint32_t.cpp
+Linking CXX executable cmTC_f1053
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1053.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f1053.dir/uint32_t.cpp.o  -o cmTC_f1053 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2279/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2279.dir/build.make CMakeFiles/cmTC_d2279.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2279.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_d2279.dir/CheckSymbolExists.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d2279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2279.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d2279.dir/CheckSymbolExists.cxx.o  -o cmTC_d2279 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+File /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50d82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50d82.dir/build.make CMakeFiles/cmTC_50d82.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50d82.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11 -fPIE   -std=c++11 -o CMakeFiles/cmTC_50d82.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_50d82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50d82.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11    -rdynamic CMakeFiles/cmTC_50d82.dir/src.cxx.o  -o cmTC_50d82 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ca6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ca6d.dir/build.make CMakeFiles/cmTC_3ca6d.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ca6d.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -o CMakeFiles/cmTC_3ca6d.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ca6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ca6d.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall    -rdynamic CMakeFiles/cmTC_3ca6d.dir/src.cxx.o  -o cmTC_3ca6d 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f18e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f18e7.dir/build.make CMakeFiles/cmTC_f18e7.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f18e7.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra -fPIE   -Wextra -o CMakeFiles/cmTC_f18e7.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f18e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f18e7.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    -rdynamic CMakeFiles/cmTC_f18e7.dir/src.cxx.o  -o cmTC_f18e7 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1408/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1408.dir/build.make CMakeFiles/cmTC_d1408.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1408.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow -fPIE   -Wshadow -o CMakeFiles/cmTC_d1408.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d1408
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1408.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    -rdynamic CMakeFiles/cmTC_d1408.dir/src.cxx.o  -o cmTC_d1408 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57f9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57f9b.dir/build.make CMakeFiles/cmTC_57f9b.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57f9b.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror -fPIE   -Werror -o CMakeFiles/cmTC_57f9b.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_57f9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f9b.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror    -rdynamic CMakeFiles/cmTC_57f9b.dir/src.cxx.o  -o cmTC_57f9b 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dadef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dadef.dir/build.make CMakeFiles/cmTC_dadef.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dadef.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic -fPIE   -pedantic -o CMakeFiles/cmTC_dadef.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dadef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dadef.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    -rdynamic CMakeFiles/cmTC_dadef.dir/src.cxx.o  -o cmTC_dadef 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05673/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05673.dir/build.make CMakeFiles/cmTC_05673.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05673.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors -fPIE   -pedantic-errors -o CMakeFiles/cmTC_05673.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_05673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05673.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    -rdynamic CMakeFiles/cmTC_05673.dir/src.cxx.o  -o cmTC_05673 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6706/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6706.dir/build.make CMakeFiles/cmTC_d6706.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6706.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal -fPIE   -Wfloat-equal -o CMakeFiles/cmTC_d6706.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6706
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6706.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal    -rdynamic CMakeFiles/cmTC_d6706.dir/src.cxx.o  -o cmTC_d6706 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b03f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b03f.dir/build.make CMakeFiles/cmTC_5b03f.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5b03f.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing -fPIE   -fstrict-aliasing -o CMakeFiles/cmTC_5b03f.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5b03f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b03f.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    -rdynamic CMakeFiles/cmTC_5b03f.dir/src.cxx.o  -o cmTC_5b03f 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a269/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a269.dir/build.make CMakeFiles/cmTC_8a269.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a269.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -o CMakeFiles/cmTC_8a269.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8a269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a269.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    -rdynamic CMakeFiles/cmTC_8a269.dir/src.cxx.o  -o cmTC_8a269 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdab6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdab6.dir/build.make CMakeFiles/cmTC_fdab6.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fdab6.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage -fPIE   --coverage -o CMakeFiles/cmTC_fdab6.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fdab6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdab6.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    -rdynamic CMakeFiles/cmTC_fdab6.dir/src.cxx.o  -o cmTC_fdab6 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_O3_FLAG succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65212/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65212.dir/build.make CMakeFiles/cmTC_65212.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65212.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DBENCHMARK_HAS_O3_FLAG -fPIE   -O3 -o CMakeFiles/cmTC_65212.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65212.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DBENCHMARK_HAS_O3_FLAG    -rdynamic CMakeFiles/cmTC_65212.dir/src.cxx.o  -o cmTC_65212 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_CXX03_FLAG succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ead95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ead95.dir/build.make CMakeFiles/cmTC_ead95.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ead95.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DBENCHMARK_HAS_CXX03_FLAG -fPIE   -std=c++03 -o CMakeFiles/cmTC_ead95.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ead95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ead95.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DBENCHMARK_HAS_CXX03_FLAG    -rdynamic CMakeFiles/cmTC_ead95.dir/src.cxx.o  -o cmTC_ead95 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_WNO_ODR succeeded with the following output:
+Change Dir: /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93953/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93953.dir/build.make CMakeFiles/cmTC_93953.dir/build
+make[1]: Entering directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93953.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DBENCHMARK_HAS_WNO_ODR -fPIE   -Wno-odr -o CMakeFiles/cmTC_93953.dir/src.cxx.o -c /home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_93953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93953.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DBENCHMARK_HAS_WNO_ODR    -rdynamic CMakeFiles/cmTC_93953.dir/src.cxx.o  -o cmTC_93953 
+make[1]: Leaving directory '/home/chad/7tesing_SCAMP/SCAMP/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

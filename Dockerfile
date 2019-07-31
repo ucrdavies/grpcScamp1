@@ -64,5 +64,5 @@ RUN cd /grpcScamp1 && git submodule update --init --recursive
 #RUN mkdir /SCAMP/build && cd /SCAMP/build && cmake -DBUILD_CLIENT_SERVER=1 .. && make -j16
 RUN mkdir /grpcScamp1/build && cd /grpcScamp1/build && cmake -DBUILD_CLIENT_SERVER=1 .. && make -j16
 
-#CMD ./grpcScamp1/build/kubernetes/SCAMPclient
-CMD ./grpcScamp1/build/kubernetes/SCAMPserver
+CMD ./grpcScamp1/build/kubernetes/SCAMPclient
+#CMD ./grpcScamp1/build/kubernetes/SCAMPserver
